@@ -10,6 +10,7 @@ const Wrapper = styled.div`
 
 const Name = styled.div`
   width: 100%;
+  height: 40px;
   display: flex;
   align-items: center;
   color: ${ ( { theme } ) => theme.title };

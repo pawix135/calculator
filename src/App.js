@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   width: 500px;
   @media (max-width: 500px){
     width: 80vw;
+    height: 100vh;
 
   }
 
@@ -21,7 +22,7 @@ const Wrapper = styled.div`
 const App = () => {
 
   const [theme, setTheme] = useState('dark');
-  const [math, setMath] = useState("");
+  const [math, setMath] = useState("399,981");
 
   const changeTheme = (type) => {
     setTheme(type)
