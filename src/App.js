@@ -11,10 +11,13 @@ const Wrapper = styled.div`
   display: flex;
   flex-flow: column nowrap;
   width: 500px;
+  padding: 50px 0px;
+  margin: auto;
   @media (max-width: 500px){
-    width: 80vw;
-    height: 100vh;
-
+    /* width: 80vw; */
+    /* height: 100vh; */
+    min-height: 500px;
+    padding: 30px;
   }
 
 `

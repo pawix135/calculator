@@ -1,6 +1,5 @@
 import { ThemeProvider } from "styled-components"
 import { light, dark, hc } from './themes'
-import { GlobalStyles } from "./globalStyles"
 import { useState } from "react"
 
 const Theme = ( { children } ) => {

@@ -13,16 +13,19 @@ body {
   overflow-x: hidden;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   body {
-    padding: 30px 0px;
+    /* padding: 30px 0px; */
+  }
+
+  #root {
+    width: 100vw;
+    margin: auto;
   }
 }
 
 #root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
   height: 100vh;
+  display: grid;
 }
