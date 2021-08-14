@@ -92,7 +92,7 @@ const KeysSection = ( { setMath, math } ) => {
     } 
     try{
       // eslint-disable-next-line no-eval
-      let evl = eval(math.replace('x', '*'));
+      let evl = eval(math.replace('x', '*')).toFixed(2);
       setMath( evl + '' );
     }catch( error ){
       setMath("Error")
