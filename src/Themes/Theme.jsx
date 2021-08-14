@@ -4,7 +4,7 @@ import { useState } from "react"
 
 const Theme = ( { children } ) => {
 
-  const [theme, setTheme] = useState('light');
+  const [theme] = useState('light');
 
   const thm = () => {
     switch( theme ){
